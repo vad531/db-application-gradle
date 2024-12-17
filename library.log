@@ -1,0 +1,100 @@
+2024-12-17 10:28:48 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.3.Final
+2024-12-17 10:28:48 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-17 10:28:49 WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-12-17 10:28:49 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-17 10:28:49 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:itacademy]
+	Database driver: org.h2.Driver
+	Database version: 2.1.214
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+2024-12-17 10:28:49 INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2024-12-17 10:33:10 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-12-17 10:33:10 INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-12-17 10:33:11 WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-12-17 10:33:11 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.h2.Driver
+2024-12-17 10:33:11 INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:h2:mem:itacademy]
+2024-12-17 10:33:11 INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=}
+2024-12-17 10:33:11 INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-12-17 10:33:11 INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-12-17 10:33:11 INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2024-12-17 10:33:12 INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: entity.Book
+2024-12-17 10:33:12 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-12-17 10:33:13 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-17 10:33:13 INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38fb151a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-12-17 10:33:13 INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@40a8a26f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-12-17 10:33:13 INFO  service.AuthorService - Получение авторов, чьи имена начинаются с: A
+2024-12-17 10:36:11 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-12-17 10:36:11 INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-12-17 10:37:24 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-12-17 10:37:24 INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-12-17 10:37:24 WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-12-17 10:37:24 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.h2.Driver
+2024-12-17 10:37:24 INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:h2:mem:itacademy]
+2024-12-17 10:37:24 INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=}
+2024-12-17 10:37:24 INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-12-17 10:37:24 INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-12-17 10:37:25 INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2024-12-17 10:37:25 INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: entity.Book
+2024-12-17 10:37:25 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-12-17 10:37:26 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-17 10:37:26 INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@371cd2fc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-12-17 10:37:26 INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1e606f64] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-12-17 10:37:26 INFO  service.AuthorService - Получение авторов, чьи имена начинаются с: A
+2024-12-17 10:37:34 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-12-17 10:37:34 INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-12-17 10:37:34 WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-12-17 10:37:34 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-12-17 10:37:34 INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+2024-12-17 10:37:34 INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-12-17 10:37:34 INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-12-17 10:37:34 INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-12-17 10:37:35 INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2024-12-17 10:37:35 INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: entity.Book
+2024-12-17 10:37:35 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-12-17 10:37:35 WARN  org.hibernate.orm.cache - HHH90001006: Missing cache[default-update-timestamps-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-12-17 10:37:36 INFO  org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' created in EhcacheManager.
+2024-12-17 10:37:36 WARN  org.hibernate.orm.cache - HHH90001006: Missing cache[default-query-results-region] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-12-17 10:37:36 INFO  org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' created in EhcacheManager.
+2024-12-17 10:37:36 WARN  org.hibernate.orm.cache - HHH90001006: Missing cache[entity.Book] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-12-17 10:37:36 INFO  org.ehcache.core.EhcacheManager - Cache 'entity.Book' created in EhcacheManager.
+2024-12-17 10:37:36 WARN  org.hibernate.orm.cache - HHH90001006: Missing cache[entity.Author] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+2024-12-17 10:37:36 INFO  org.ehcache.core.EhcacheManager - Cache 'entity.Author' created in EhcacheManager.
+2024-12-17 10:37:36 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-17 10:37:36 INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23396fc0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-12-17 10:37:37 INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@27bb74e1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-12-17 10:37:37 INFO  service.GenreService - Добавление жанра: Фэнтази
+2024-12-17 10:37:37 INFO  service.GenreService - Получение списка всех жанров
+2024-12-17 10:37:37 INFO  service.GenreService - Получение жанра с ID: 1
+2024-12-17 10:37:37 INFO  service.GenreService - Обновление жанра с ID: 1
+2024-12-17 10:37:37 INFO  service.GenreService - Удаление жанра с ID: 1
+2024-12-17 10:37:37 INFO  service.AuthorService - Добавление автора: J.R.R. Tolkien
+2024-12-17 10:37:37 INFO  service.AuthorService - Получение автора с ID: 1
+2024-12-17 10:37:37 INFO  service.BookService - Добавление книги: Хоббит
+2024-12-17 10:37:37 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23503
+2024-12-17 10:37:37 ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: insert or update on table "books" violates foreign key constraint "fk9hsvoalyniowgt8fbufidqj3x"
+  Подробности: Key (genre_id)=(1) is not present in table "genres".
+2024-12-17 10:37:37 INFO  service.BookService - Получение списка всех книг
+2024-12-17 10:37:37 INFO  service.BookService - Получение книги с ID: 0
+2024-12-17 10:37:37 INFO  org.ehcache.core.EhcacheManager - Cache 'default-query-results-region' removed from EhcacheManager.
+2024-12-17 10:37:37 INFO  org.ehcache.core.EhcacheManager - Cache 'entity.Author' removed from EhcacheManager.
+2024-12-17 10:37:37 INFO  org.ehcache.core.EhcacheManager - Cache 'entity.Book' removed from EhcacheManager.
+2024-12-17 10:37:37 INFO  o.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2024-12-17 10:37:37 INFO  org.ehcache.core.EhcacheManager - Cache 'default-update-timestamps-region' removed from EhcacheManager.
+2024-12-17 10:38:43 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-12-17 10:38:43 INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-12-17 10:38:43 WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2024-12-17 10:38:43 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.h2.Driver
+2024-12-17 10:38:43 INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:h2:mem:itacademy]
+2024-12-17 10:38:43 INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=}
+2024-12-17 10:38:43 INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2024-12-17 10:38:43 INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2024-12-17 10:38:44 INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2024-12-17 10:38:44 INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: entity.Book
+2024-12-17 10:38:44 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-12-17 10:38:45 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-17 10:38:45 INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@371cd2fc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-12-17 10:38:45 INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1e606f64] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-12-17 10:38:45 INFO  service.AuthorService - Получение авторов, чьи имена начинаются с: A

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/postgres</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">Shustrik@531</property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
+        <!-- Включение второго уровня кэша -->
+        <property name="hibernate.cache.use_second_level_cache">true</property>
+        <property name="hibernate.cache.region_prefix.factory_class">org.hibernate.cache.jcache.internal.JCacheRegionFactory</property>
+        <property name="hibernate.cache.use_query_cache">true</property>
+        <!-- Дополнительные настройки для EhCache -->
+        <property name="hibernate.cache.provider_configuration_file_resource_path">ehcache.config.xml</property>
+        <property name="hibernate.cache.use_structured_entries">true</property>
+        <!-- Настройки для Hibernate Envers -->
+        <property name="hibernate.envers.audit_table_prefix">AUD_</property>
+        <property name="hibernate.envers.default_schema">public</property>
+        <property name="hibernate.envers.store_data_at_delete">true</property>
+        <mapping class="entity.Author"/>
+        <mapping class="entity.Book"/>
+        <mapping class="entity.Reader"/>
+        <mapping class="entity.User"/>
+        <mapping class="entity.Borrowing"/>
+        <mapping class="entity.Genre"/>
+    </session-factory>
+</hibernate-configuration>

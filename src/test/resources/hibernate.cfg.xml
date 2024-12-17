@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:h2:mem:itacademy</property>
+    <property name="connection.username"/>
+    <property name="connection.password"/>
+    <property name="connection.driver_class">org.h2.Driver</property>
+    <property name="hibernate.dialect">org.hibernate.dialect.H2Dialect</property>
+    <property name="show_sql"> true</property> <property name="format_sql">true</property>
+    <property name="hibernate.hbm2ddl.auto">create</property>
+    <!-- Включение второго уровня кэша -->
+    <property name="hibernate.cache.use_second_level_cache">false</property>
+    <property name="hibernate.cache.region.factory_class">org.hibernate.cache.jcache.JCacheRegionFactory</property>
+    <property name="hibernate.cache.use_query_cache">false</property>
+    <mapping class="entity.Author"/>
+    <mapping class="entity.Book"/>
+    <mapping class="entity.Reader"/>
+    <mapping class="entity.User"/>
+    <mapping class="entity.Borrowing"/>
+    <mapping class="entity.Genre"/>
+  </session-factory>
+</hibernate-configuration>
